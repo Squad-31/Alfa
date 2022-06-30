@@ -1,3 +1,4 @@
+/* página principal */
 .video {
   height: 300px;
 
@@ -7,6 +8,9 @@
 body {
   background-color: #f2f5f7;
   font-family: "Open Sans", Arial, sans-serif;
+}
+.img-obj-principal {
+  border-radius: 10px;
 }
 
 .bg-img {
@@ -18,3 +22,11 @@ body {
 .card:hover {
   box-shadow: 4px 4px 4px #ccc;
 }
+
+.percurso-main {
+  border: 1px solid rgb(191, 178, 178);
+  border-radius: 10px;
+  margin-left: 5px;
+  background-color: aliceblue;
+}
+/*  */
