@@ -14,7 +14,7 @@ body {
 }
 
 .bg-img {
-  background-image: url("/assets/img/fundo-Cabeçalho.jpg") !important;
+  background-image: url("../assets/img/fundo-Cabeçalho.jpg") !important;
 }
 .nav-item:hover {
   box-shadow: 4px 4px 4px #ccc;
