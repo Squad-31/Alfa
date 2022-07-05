@@ -15,6 +15,7 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style/style.css">
 </head>
 
 <body>
@@ -29,7 +30,7 @@
                     <div class=" col-6 ">
                         <nav class=" navbar ">
                             <a class=" navbar-brand align-items-center" href="../index.html">
-                                <img src="../imagens/logo-removebg-preview.png" alt="" width="100" height="70"
+                                <img src="../assets/img/logo-removebg-preview.png" alt="" width="100" height="70"
                                     class="d-inline-block align-text-top" />
 
                             </a>
@@ -37,10 +38,10 @@
                     <div class="col-6  ">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-row justify-content-end ">
                             <li class="nav-item mx-5 ">
-                                <a class="nav-link active text-white" aria-current="page" href="cadastro.html">
+                                <a class="nav-link active text-white" aria-current="page" href="../index.html">
                                     <div>
                                         <i class="fa-solid fa-arrow-right-to-bracket"></i>
-                                        <label for=""> ENTRAR</label>
+                                        <label for="">Sair</label>
                                     </div>
                                 </a>
                             </li>
@@ -49,7 +50,7 @@
 
                                     <div>
                                         <i class="fa-solid fa-circle-question"></i>
-                                        <label for="">AJUDA</label>
+                                        <label for="">Ajuda</label>
                                     </div>
 
                                 </a>
@@ -67,16 +68,7 @@
                         <div class="container-fluid">
 
 
-                            <ul class="nav">
-                                <li class="nav-item ">
-                                    <a class="nav-link active" aria-current="page" href="../index.html">
-                                        <div class="text-center icon-menu">
-                                            <i class="fa-solid fa-house"></i>
-                                        </div>
-                                        <label for="">Home</label>
-
-                                    </a>
-                                </li>
+                            <ul class="nav nav-principal">
                                 <li class="nav-item">
                                     <a class="nav-link active" href="videoAula.html">
                                         <div class="text-center icon-menu">
@@ -109,19 +101,9 @@
                                         <label for="">Cursos</label>
                                     </a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled">
-                                        <div class="text-center">
-                                            <i class="fa-solid fa-car"></i>
-                                        </div>
-                                        <label for=""></label>
-                                    </a>
-                                </li>
                             </ul>
-
                         </div>
                     </nav>
-
                 </div>
             </div>
             <!-- FIM NAV -->
@@ -130,37 +112,39 @@
 
 
         <!--Inicio tempo de aprender-->
-        <footer>
+        <main>
 
             <div class="container-fluid ">
-                <div class="row row-cols-md-6 row-cols-md-4 bg-primary">
+                <div class="row row-cols-md-6 row-cols-md-4 ">
                     <div class="col-md-8 col-8 mt-2 px-4">
-                        <div align="center"> <img src="../PNG/tempo-de-aprender.png" alt="100%" height="150px" img>
+                        <div class="container">
+
+                            <div class="row">
+
+                                <div class="col"> 
+                                    <img src="../assets/img/paginaVideo/tempo-de-aprender.png" alt="100%" height="150px" img>
+                                </div>
+                                <div class="col"> 
+                                    <h1 align="center" class="fw-light">Leitura e Formação de palavras </h1>
+                                </div>
+                            </div>  
+                            
                         </div>
+
                     </div>
                 </div>
             </div>
-        </footer>
         <!--Fim tempo de aprender-->
-        <footer>
-            <div class="container-fluid">
-                <hr>
-
-                
-
-                <!--Inicio titulo-->
-                <h1 align="center" class="fw-light">Leitura e Formação de palavras </h1><br>
-                <!--Fim titulo-->
-
-        </footer>
+        
 
         <!--inicio dos videos-->
+<section>
 
-        <div class="album py-5 bg-light">
-            <div class="container">
-
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-4">
-                    <div class="col">
+    <div class="album py-5 bg-light">
+        <div class="container">
+            
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-4">
+                <div class="col">
                         <div class="card shadow-sm">
                             <div class="video1">
                                 <iframe width="100%" height="225" src="https://www.youtube.com/embed/hRtd_2LtM14"
@@ -204,11 +188,13 @@
                     </div>
                 </div>
             </div><br><br>
+        </section>
             <!--Fim dos videos-->
-            <footer>
+            <section>
 
+                
                 <div class="container-fluid">
-
+                    
                     <div align="center" class="table-scroll">
                         <table>
                             <tbody>
@@ -226,7 +212,8 @@
                         </table>
                     </div>
                 </div>
-            </footer>
+           
+            </section>
 
 
             <section class="py-5 text-center container">
@@ -242,14 +229,17 @@
                 </div>
             </section>
 
-
-            <footer class="bg-dark">
-                <p class="text-white">
-
-                    ₢-Alfa.Beto corporations
-                </p>
-
-            </footer>
+        </main>
+        
+        <footer class="bg-dark text-center ">
+            <a href="https://github.com/Squad-31">
+              <img src="../assets/img/Github-logo.png" alt="" >
+            </a>
+              <p class="text-white mb-0 mx-3" style="display: inline-block;">
+                ₢-Alfa.Beto corporation
+              </p>
+              
+          </footer>
 
 
             <!-- Bootstrap JavaScript Libraries -->

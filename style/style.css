@@ -1,9 +1,9 @@
 /* página principal */
-.video {
+/* .video {
   height: 300px;
 
   background-color: aquamarine;
-}
+} */
 
 body {
   background-color: #f2f5f7;
@@ -36,4 +36,14 @@ body {
 .video-ex {
   height: 200px;
   background-color: gray;
+}
+
+.nav .nav-principal li a i {
+  color: #001c40;
+}
+.nav .nav-principal li a i:hover {
+  color: rgba(29, 165, 45, 0.891);
+}
+.nav .nav-principal li a label {
+  color: rgb(80, 89, 108);
 }
