@@ -16,12 +16,12 @@ body {
 .bg-img {
   background-image: url("../assets/img/fundo-Cabeçalho.jpg") !important;
 }
-.nav-item:hover {
+.nav-item .active:hover {
   box-shadow: 4px 4px 4px #ccc;
 }
-.card:hover {
+/* .card:hover {
   box-shadow: 4px 4px 4px #ccc;
-}
+} */
 
 .percurso-main {
   border: 1px solid rgb(191, 178, 178);
@@ -38,7 +38,7 @@ body {
   background-color: gray;
 }
 
-.nav .nav-principal li a i {
+.nav .nav-principal li .active i {
   color: #001c40;
 }
 .nav .nav-principal li a i:hover {
@@ -46,4 +46,14 @@ body {
 }
 .nav .nav-principal li a label {
   color: rgb(80, 89, 108);
+}
+
+.titulo,
+.questoes {
+  border: 1px solid rgb(201, 193, 193);
+}
+p {
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 5px;
 }
