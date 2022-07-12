@@ -21,8 +21,8 @@ main {
   box-shadow: 4px 4px 4px #ccc;
   border-radius: 5px;
 
-  background-color: rgb(106, 203, 106);
-  transition: 1s;
+  background-color: rgb(106, 203, 106) !important;
+  transition: 1s !important;
 }
 .nav-item {
   border-radius: 10px;
@@ -59,7 +59,7 @@ main {
   color: rgb(80, 89, 108);
 }
 .img-obj-principal {
-  box-shadow: 10px 10px 5px rgba(211, 211, 33, 0.891);
+  box-shadow: 10px 10px 5px rgba(211, 211, 33, 0.891) !important;
 }
 
 .titulo,
