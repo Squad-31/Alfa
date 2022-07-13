@@ -4,11 +4,13 @@
 
   background-color: aquamarine;
 } */
+body {
+  font-family: "Roboto", sans-serif;
+}
 
 main {
   /* background-color: #f2f5f7; */
   background: linear-gradient(white 1%, #dfe2e4, #aaeea7);
-  font-family: "Open Sans", Arial, sans-serif;
 }
 .img-obj-principal {
   border-radius: 10px;
@@ -59,7 +61,7 @@ main {
   color: rgb(80, 89, 108);
 }
 .img-obj-principal {
-  box-shadow: 10px 10px 5px rgba(211, 211, 33, 0.891) !important;
+  box-shadow: 10px 10px 5px rgba(153, 231, 64, 0.891) !important;
 }
 
 .titulo,
