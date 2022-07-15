@@ -10,10 +10,24 @@ body {
 
 main {
   /* background-color: #f2f5f7; */
-  background: linear-gradient(white 1%, #dfe2e4, #aaeea7);
+  background: linear-gradient(white 1%, #dfe2e4 10%, #aaeea7);
 }
 .img-obj-principal {
   border-radius: 10px;
+}
+.video-ex {
+  height: 200px;
+  background-color: gray;
+}
+
+.nav .nav-principal li .active i {
+  color: #001c40;
+}
+.nav .nav-principal li a label {
+  color: rgb(80, 89, 108);
+}
+.img-obj-principal {
+  box-shadow: 10px 10px 5px rgba(153, 231, 64, 0.891) !important;
 }
 
 .bg-img {
@@ -49,24 +63,9 @@ main {
 
 /* pagina-exercicios */
 
-.video-ex {
-  height: 200px;
-  background-color: gray;
-}
-
-.nav .nav-principal li .active i {
-  color: #001c40;
-}
-.nav .nav-principal li a label {
-  color: rgb(80, 89, 108);
-}
-.img-obj-principal {
-  box-shadow: 10px 10px 5px rgba(153, 231, 64, 0.891) !important;
-}
-
-.titulo,
-.questoes {
-  border: 1px solid rgb(135, 146, 240);
+.caixa {
+  border: 2px solid rgb(167, 232, 187);
+  border-radius: 5px;
 }
 /* p {
   font-weight: bold;
