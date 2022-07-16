@@ -27,7 +27,10 @@ main {
   color: rgb(80, 89, 108);
 }
 .img-obj-principal {
-  box-shadow: 10px 10px 5px rgba(153, 231, 64, 0.891) !important;
+  box-shadow: 10px 10px 5px #a5f2a1 !important;
+}
+.img-obj-principal:hover {
+  box-shadow: 10px 10px 10px #acf4a8a6 !important;
 }
 
 .bg-img {
@@ -40,8 +43,17 @@ main {
   background-color: rgb(106, 203, 106) !important;
   transition: 1s !important;
 }
+.nav-item .login:hover {
+  border-radius: 5px;
+
+  background-color: rgba(153, 166, 153, 0.47) !important;
+  transition: 1s !important;
+}
 .nav-item {
   border-radius: 10px;
+}
+.video-p {
+  border-radius: 8px;
 }
 /* .nav .nav-principal li a i:hover {
   color: rgba(29, 165, 45, 0.891);
@@ -54,7 +66,7 @@ main {
 } */
 
 .percurso-main {
-  border: 1px solid rgb(191, 178, 178);
+  border: 1px solid #9ef1e9;
   border-radius: 10px;
 
   background-color: aliceblue;
@@ -64,7 +76,7 @@ main {
 /* pagina-exercicios */
 
 .caixa {
-  border: 2px solid rgb(167, 232, 187);
+  border: 2px solid rgb(107, 115, 115);
   border-radius: 5px;
 }
 /* p {
