@@ -87,3 +87,10 @@ main {
 .exe {
   border: 1px solid rgb(135, 146, 240);
 }
+.inp {
+  width: 50px;
+  padding: 5px;
+  outline: 0;
+  border: 0;
+  border-bottom: 2px solid rgb(17, 235, 82);
+}
