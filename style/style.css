@@ -94,3 +94,12 @@ main {
   border: 0;
   border-bottom: 2px solid rgb(17, 235, 82);
 }
+/* dashboard */
+.img-fake {
+  height: 200px;
+  background-color: #001c40;
+  border-radius: 10px;
+}
+.inpr {
+  width: 50%;
+}
