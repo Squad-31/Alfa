@@ -26,33 +26,41 @@
     <link rel="stylesheet" href="../style/style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4 offset-sm-4 text-center">
-          <img src="../imagens/logo-removebg-preview.png" width="70px" alt="" />
-        </div>
-      </div>
-      <div class="row mt-2">
-        <div class="col-sm-4 offset-sm-4 card bg-light p-5">
-          <form action="">
-            <div class="mb-3">
-              <label for="" class="form-label">CPF</label>
-              <input type="number" class="text form-control" />
-            </div>
-            <div class="mb-3">
-              <label for="" class="form-label">senha</label>
-              <input type="password" class="form-control" />
-              <div class="form-text">
-                A senha deve conter no minino 6 números.
+    <main class="p-5">
+      <div class="container py-5">
+        <div class="row mt-5 mr-auto ml-auto">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-6 ocard bg-light p-5">
+            <form action="">
+              <div class="mb-3">
+                <label for="" class="form-label">CPF</label>
+                <input type="number" class="text form-control" />
               </div>
-            </div>
-            <div class="row">
-              <a href="dashboard.html" class="btn btn-primary">ENTRAR</a>
-            </div>
-          </form>
+              <div class="mb-3">
+                <label for="" class="form-label">senha</label>
+                <input type="password" class="form-control" />
+                <div class="form-text">
+                  A senha deve conter no minino 6 números.
+                </div>
+              </div>
+              <div class="row">
+                <a href="dashboard.html" class="btn btn-primary">ENTRAR</a>
+              </div>
+              <a href="cadastro.html" class="btn btn-success mt-1">cadastrar</a>
+            </form>
+          </div>
+          <div class="col-sm-3"></div>
         </div>
       </div>
-    </div>
+    </main>
+    <footer class="bg-dark text-center p-2">
+      <a href="https://github.com/Squad-31">
+        <img src="../assets/img/Github-logo.png" alt="" />
+      </a>
+      <p class="text-white mb-0 mx-3" style="display: inline-block">
+        ₢-Alfa.Beto corporation
+      </p>
+    </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script
