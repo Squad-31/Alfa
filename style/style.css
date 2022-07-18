@@ -98,8 +98,16 @@ main {
 .img-fake {
   height: 200px;
   background-color: #001c40;
-  border-radius: 10px;
+  border-radius: 5px;
 }
-.inpr {
+/* .inpr {
   width: 50%;
+} */
+
+.card-form {
+  border-radius: 20px;
+}
+.icon-volt {
+  font-size: 30px;
+  margin: 5px;
 }
