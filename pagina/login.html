@@ -8,6 +8,11 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <!-- icons -->
+    <script
+      src="https://kit.fontawesome.com/8a094e39a4.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- <fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,27 +32,52 @@
     <link rel="stylesheet" href="../style/login.css" />
   </head>
   <body>
+    <a href="../index.html"><i class="fa-solid fa-arrow-left icon-volt"></i></a>
     <main class="p-5">
       <div class="container py-5">
         <div class="row mt-5 mr-auto ml-auto">
           <div class="col-md-3"></div>
-          <div class="col-md-6 col-sm-10 ocard bg-light p-5">
+          <div class="col-md-6 card bg-light p-5 card-form">
             <form action="">
-              <label for="" class="form-label">CPF</label>
+              <label for="" class="form-label">CPF </label>
               <div class="mb-3">
-                <input type="number" class="bg-light" />
+                <input
+                  type="number"
+                  class="bg-light"
+                  placeholder="Digite seu CPF"
+                />
               </div>
               <label for="" class="form-label">senha</label>
               <div class="mb-3">
-                <input type="password" class="bg-light" />
+                <input
+                  type="password"
+                  class="bg-light"
+                  placeholder="Digite sua senha"
+                />
                 <div class="form-text">
                   A senha deve conter no minino 6 números.
                 </div>
               </div>
+              <div class="form-check form-switch mb-2">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  role="switch"
+                  id="M-Conectado"
+                  checked
+                />
+                <label class="form-check-label" for="M-Conectado"
+                  >Mantenha-me conectado</label
+                >
+              </div>
               <div class="row">
                 <a href="dashboard.html" class="btn btn-primary">ENTRAR</a>
               </div>
-              <a href="cadastro.html" class="btn btn-success mt-1">cadastrar</a>
+              <div class="col text-center mt-3">
+                <a href="cadastro.html" class="btn btn-success mt-1"
+                  >cadastrar</a
+                >
+              </div>
             </form>
           </div>
           <div class="col-md-3"></div>
