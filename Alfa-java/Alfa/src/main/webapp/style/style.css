@@ -12,6 +12,10 @@ main {
   /* background-color: #f2f5f7; */
   background: linear-gradient(white 1%, #dfe2e4 10%, #aaeea7);
 }
+
+audio {
+  margin: 25px 0;
+}
 .img-obj-principal {
   border-radius: 10px;
 }
@@ -71,6 +75,10 @@ main {
 
   background-color: aliceblue;
 }
+
+.percurso-main > h5 {
+  margin: 10px 0;
+}
 /*  */
 
 /* pagina-exercicios */
@@ -110,4 +118,22 @@ main {
 .icon-volt {
   font-size: 30px;
   margin: 5px;
+}
+
+.cards-info > div {
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.obj {
+  margin-top: 55px; 
+}
+
+.formulario {
+  margin: 35px 0;
+}
+
+.card-cadastro {
+  margin: 10px auto
 }

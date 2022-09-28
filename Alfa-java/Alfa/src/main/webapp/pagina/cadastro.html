@@ -37,7 +37,7 @@
         <div class="row justify-content-between">
           <!-- CARD ALUNO -->
 
-          <div class="col-md-5 card bg-light p-5 mt-2">
+          <div class="card-cadastro col-md-5 card bg-light p-5 mt-2">
             <h3 class="text-center">
               <i class="fa-solid fa-graduation-cap"></i>
             </h3>
@@ -47,83 +47,23 @@
             <form action="">
               <div class="mb-3">
                 <label for="" class="form-label">CPF</label>
-                <input type="number" class="text form-control" required />
+                <input type="text" placeholder="000.000.000-00" class="text form-control" required />
               </div>
               <div class="mb-3">
-                <label for="" class="form-label">senha</label>
-                <input type="password" class="form-control" required />
+                <label for="" class="form-label">Senha</label>
+                <input type="password" placeholder="******" class="form-control" required />
                 <div class="form-text">
                   A senha deve conter no minino 6 números.
                 </div>
               </div>
               <div class="row">
-                <input type="submit" value="cadastrar" class="btn btn-primary"></input>
+                <input type="submit" value="CADASTRAR" class="btn btn-primary"></input>
               </div>
             </form>
           </div>
 
           <!--  FIM CARD ALUNO -->
 
-          <!-- CARD PROFESSOR-->
-
-          <div class="col-md-5 card bg-light p-5 mt-2">
-            <h3 class="text-center">
-              <i class="fa-solid fa-person-chalkboard"></i>
-            </h3>
-            <h4 class="text-center">MENTOR</h4>
-
-            <form action="">
-              <div class="mb-3">
-                <label for="" class="form-label">Nome:</label>
-                <input type="text" class="text form-control" required />
-              </div>
-              <!-- RADIO BTN -->
-              <label for="">sexo:</label>
-
-              <div class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="inlineRadioOptions"
-                  id="inlineRadio1"
-                  value="option1"
-                />
-                <label class="form-check-label" for="inlineRadio1">M</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="inlineRadioOptions"
-                  id="inlineRadio2"
-                  value="option2"
-                />
-                <label class="form-check-label" for="inlineRadio2">F</label>
-              </div>
-
-              <!-- FIM RADIO BTN -->
-              <div class="mb-3">
-                <label for="" class="form-label">Email:</label>
-                <input type="email" class="text form-control" required />
-              </div>
-
-              <div class="mb-3">
-                <label for="" class="form-label">CPF</label>
-                <input type="number" class="text form-control" required />
-              </div>
-              <div class="mb-3">
-                <label for="" class="form-label">senha</label>
-                <input type="password" class="form-control" required />
-                <div class="form-text">
-                  A senha deve conter no minino 6 números.
-                </div>
-              </div>
-              <div class="row">
-                <input type="submit" value="cadastrar" class="btn btn-primary"></input>
-              </div>
-            </form>
-          </div>
-          <!-- FIM CARD PROFESSOR-->
         </div>
       </div>
     </main>
@@ -133,7 +73,7 @@
         <img src="../assets/img/Github-logo.png" alt="" >
       </a>
         <p class="text-white mb-0 mx-3" style="display: inline-block;">
-          ₢-Alfa.Beto corporation
+          &copy; Alfa.Beto corporation
         </p>
         
     </footer>
