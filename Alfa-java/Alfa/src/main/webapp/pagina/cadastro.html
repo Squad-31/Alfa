@@ -22,12 +22,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- Bootstrap CSS v5.2.0-beta1 -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
+  <link rel="stylesheet" href="../style/bootstrap.min.css" />
     <link rel="stylesheet" href="../style/style.css" />
   </head>
   <body>
@@ -44,14 +39,22 @@
             <h4 class="text-center">ALUNO</h4>
             <audio src="" controls class=""></audio>
 
-            <form action="">
+            <form action="../main" name="formCadastro" method="post" >
+            
               <div class="mb-3">
                 <label for="" class="form-label">CPF</label>
-                <input type="text" placeholder="000.000.000-00" class="text form-control" required />
+                <input type="text"
+                 placeholder="000.000.000-00"
+                  class="text form-control" required
+                  name="CPF" />
               </div>
               <div class="mb-3">
                 <label for="" class="form-label">Senha</label>
-                <input type="password" placeholder="******" class="form-control" required />
+                
+                <input type="password"
+                 placeholder="******" 
+                 class="form-control" required 
+                 name="senha"/>
                 <div class="form-text">
                   A senha deve conter no minino 6 números.
                 </div>
