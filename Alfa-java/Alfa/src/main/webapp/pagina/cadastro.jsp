@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>login</title>
+    <title>Cadastro</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -41,10 +41,18 @@
 
             <form action="../main" name="formCadastro" method="post" >
             
+            
+             <div class="mb-3">
+                <label for="" class="form-label">Nome: </label>
+                <input type="text"
+                 placeholder="Seu nome aqui"
+                  class="text form-control" required
+                  name="nome" />
+              </div>
               <div class="mb-3">
                 <label for="" class="form-label">CPF</label>
                 <input type="text"
-                 placeholder="000.000.000-00"
+                 placeholder="XXX.XXX.XXX-XX"
                   class="text form-control" required
                   name="CPF" />
               </div>
