@@ -6,6 +6,8 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.servlet.RequestDispatcher;
+
 public class UsuarioDAO {
   Connection conn = null;
   PreparedStatement pstm = null;
@@ -128,13 +130,15 @@ public class UsuarioDAO {
 	    }
 	  }
   
+
+  
   //GET USUARIO
-  public List<Usuario> getClientes(String CPF) {
+  public Usuario getClientes(String cpf) {
 
 	    
 	    String sql = "SELECT Email,Senha,CPF FROM user WHERE cpf = ?";
 
-	    List<Usuario> user = new ArrayList<>();
+	  
 
 	    ResultSet rset = null;
 
@@ -142,21 +146,21 @@ public class UsuarioDAO {
 	      conn = Conexao.createConnectionToMySQL();
 
 	      pstm = conn.prepareStatement(sql);
-	      pstm.setString(1, CPF);
+	      pstm.setString(1, cpf);
 	      rset = pstm.executeQuery();
 
 	      while (rset.next()) {
 
-	       Usuario usuario =  new Usuario();
-	      
-	       // Recupera o nome do banco e atribui ele ao objeto
-	       	usuario.setCPF(rset.getString("CPF"));
-	        usuario.setEmail(rset.getString("Email"));
-	        usuario.setSenha(rset.getString("Senha"));
+	    	  
+	      Usuario user = new Usuario();
+	     
+	       	user.setCPF(rset.getString("CPF"));
+	        user.setEmail(rset.getString("Email"));
+	        user.setSenha(rset.getString("Senha"));
 	        
 
-	        // Adiciona o autor recuperado, a lista de autores
-	        user.add(usuario);
+	        return user;
+	       
 	      }
 	    } catch (Exception e) {
 
@@ -184,9 +188,34 @@ public class UsuarioDAO {
 	        e.printStackTrace();
 	      }
 	    }
+		return null;
 
-	    return user;
+	   
 	  }
+  //verificaBAnco
+  
+ 
+  public String verifica(List<Usuario> usuario, String CPF) {
+	  
+	  
+	for(Usuario user: usuario) {
+			
+			System.out.println(user.getCPF());
+			if(user.getCPF().equals(CPF)) {
+				
+				System.out.println("vc já tem conta");
+				return "TRUE";
+				  
+				
+			}else {
+				System.out.println("vc não tem conta");
+				return "false";
+			}
+			
+		}
+	return CPF;
+			  
+  }
   
 
 }

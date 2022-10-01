@@ -28,30 +28,28 @@
 			<div class="row mt-5 mr-auto ml-auto">
 				<div class="col-md-3"></div>
 				<div class="col-md-6 card bg-light p-5 card-form">
-					<form action="">
+					<form action="../loginUserServlet" method="post">
 						<label for="" class="form-label">CPF </label>
 						<div class="mb-3">
 							<input type="number" class="bg-light"
-								placeholder="Digite seu CPF" />
+								placeholder="Digite seu CPF" name="CPF"/>
 						</div>
 						<label for="" class="form-label">senha</label>
 						<div class="mb-3">
 							<input type="password" class="bg-light"
-								placeholder="Digite sua senha" />
-							<div class="form-text">A senha deve conter no minino 6
-								números.</div>
+								placeholder="Digite sua senha" name="Senha"/>
+
 						</div>
 						<div class="form-check form-switch mb-2">
 							<input class="form-check-input" type="checkbox" role="switch"
-								id="M-Conectado" checked /> <label
-								class="form-check-label" for="M-Conectado">Mantenha-me
-								conectado</label>
+								id="M-Conectado" checked /> <label class="form-check-label"
+								for="M-Conectado">Mantenha-me conectado</label>
 						</div>
 						<div class="row">
-							<a href="dashboard.html" class="btn btn-primary">ENTRAR</a>
+							<input type="submit" value="Entrar" class="btn btn-primary"></input>
 						</div>
 						<div class="col text-center mt-3">
-							<a href="cadastro.html" class="btn btn-success mt-1">cadastrar</a>
+							<a href="cadastro.jsp" class="btn btn-success mt-1">cadastrar</a>
 						</div>
 					</form>
 				</div>

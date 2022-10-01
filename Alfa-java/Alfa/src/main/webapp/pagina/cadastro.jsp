@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -22,7 +24,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- Bootstrap CSS v5.2.0-beta1 -->
-  <link rel="stylesheet" href="../style/bootstrap.min.css" />
+  <link rel="stylesheet" href=" ../style/bootstrap.min.css" />
     <link rel="stylesheet" href="../style/style.css" />
   </head>
   <body>
@@ -39,9 +41,7 @@
             <h4 class="text-center">ALUNO</h4>
             <audio src="" controls class=""></audio>
 
-            <form action="../main" name="formCadastro" method="post" >
-            
-            
+            <form action="../CadUsuarioServlet" name="formCadastro" method="post" >
              <div class="mb-3">
                 <label for="" class="form-label">Nome: </label>
                 <input type="text"
