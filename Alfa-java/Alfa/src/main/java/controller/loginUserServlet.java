@@ -43,7 +43,6 @@ public class loginUserServlet extends HttpServlet {
 
 		
 		System.out.println("veio pelo form");
-	
 		System.out.println("LOGIN: ");
 		System.out.println("CPF:"  + CPF);
 		System.out.println( "SENHA: " + senha);

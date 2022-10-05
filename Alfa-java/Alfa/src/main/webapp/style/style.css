@@ -8,6 +8,7 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
 }
 
+
 main {
   /* background-color: #f2f5f7; */
   background: linear-gradient(white 1%, #dfe2e4 10%, #aaeea7);
@@ -51,7 +52,7 @@ audio {
   border-radius: 5px;
 
   background-color: rgba(153, 166, 153, 0.47) !important;
-  transition: 1s !important;
+  transition: 1s;
 }
 .nav-item {
   border-radius: 10px;
